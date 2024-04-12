@@ -1,3 +1,5 @@
+import sys
+
 print(50*"*")
 print("     Olá! Seja muito bem-vindo a Frutaria ES!     ")
 print(50*"*")
@@ -37,7 +39,7 @@ elif fruta == "kiwi":
     valor = peso * 35.40
 else:
     print("Escolha inválida!")
-    exit()
+    sys.exit("Programa encerrado")
 
 frete = 4
 

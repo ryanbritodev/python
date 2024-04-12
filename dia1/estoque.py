@@ -25,4 +25,3 @@ while True:
         print("Palitos de Sorvete: ", palito, "unidades")
     else:
         print("Item inválido, digite novamente:")
-      
