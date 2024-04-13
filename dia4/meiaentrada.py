@@ -10,10 +10,7 @@ if idade > 65 or idade < 21:
 estudante = input("Você é estudante? (S ou N) ")
 if estudante == "S":
     print("Você tem direito a meia entrada!")
-else:
-    sys.exit("RESPOSTA INVÁLIDA")
-
-if estudante == "N":
+elif estudante == "N":
     print("Você não tem direito a meia-entrada!")
 else:
     sys.exit("RESPOSTA INVÁLIDA")
