@@ -20,4 +20,3 @@ while i <= numero:
     i += 1
 
 print(f"A quantidade de números pares é de {quantidadePar} e de números ímpares é de {quantidadeImpar}")
-gi
