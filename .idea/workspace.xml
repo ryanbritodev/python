@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b710eab1-d4a2-4136-96c5-e42bd814230b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/dia6/contador.py" beforeDir="false" afterPath="$PROJECT_DIR$/dia6/contador.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dia6/notaslista.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
