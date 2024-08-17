@@ -1,4 +1,6 @@
-valor = int(input("Vamos calcular uma função matemática?"))
+from math import pow
+
+valor = float(input("Vamos calcular uma função matemática? "))
 
 def y(x):
     if x <= 2:
@@ -8,7 +10,9 @@ def y(x):
     elif x < 5:
         return 3
     else:
-        return x**2 - 10 * x + 28
+        return int(pow(x, 2)) - 10 * x + 28
+
+print(y(valor))
 
 # Uma função é definida da seguinte forma:
 # def nome(parâmetro1, parâmetro2, ..., parâmetro3):
