@@ -1,4 +1,4 @@
-import requests
+import request
 
 print("-=" * 20)
 cep = str(input("Digite seu CEP: "))
@@ -6,7 +6,7 @@ numero = int(input("Digite o número do logradouro: "))
 
 url = f'https://viacep.com.br/ws/{cep}/json/'
 
-endereco = requests.get(url)
+endereco = request.get(url)
 
 local = endereco.json()
 
